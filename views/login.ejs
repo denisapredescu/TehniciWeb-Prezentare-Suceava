@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="us">
+<head>
+    <meta charset="utf-8">
+    <title>LOGARE</title>
+    <script src="pag_principala.js" defer></script>
+    <script src="login.js" defer></script>
+    <style>
+        .trecere{
+            background-color: #387032;
+        }
+        .logare {
+            margin-left: 30px;
+        }
+        .logare:nth-child(1){
+            margin-top: 40px;
+            font-style: oblique;
+            font-size: 30px;
+            text-decoration-line: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<p class="logare"><b><%= mesaj %></b></p>
+
+<form id="testform" class="logare" action="/login_post" method="post" enctype="multipart/form-data">
+
+    <p> <label>Username:</label> <input type="text" name="username"></p>
+    <p> <label>Parola:</label><input type="password" name="parola"></p>
+    <p><button type="submit" id="buton" class="trecere" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Login </button> </p>
+    <button class="trecere trecere_dr schimba" onclick="location.href='pag_principala.html'" type="button" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+        Inapoi la informatii</button>
+</form>
+<img src="">
+
+</body>
+</html>

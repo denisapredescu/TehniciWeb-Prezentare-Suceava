@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Geografie</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="Geografie.css" rel="stylesheet" type="text/css" />
+    <link href="GeografieMIC.css" rel="stylesheet" type="text/css" />
+    <link href="pag_principala.css" rel="stylesheet" type="text/css" />
+    <script src="pag_principala.js" defer></script>
+    <script src="Geografie.js" defer></script>
+</head>
+<body onload="oraActuala()"  onclick="myFunction(event)">
+<header>
+    <p class="ora"></p>
+    <button id="check1" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Original</button>
+    <button id="check2" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Varianta inchisa la culoare</button>
+    <h2 class="subtitlu">Asezare geografica</h2>
+</header>
+<div id="flex-container" class="schimba">
+    <section >
+        <p>&emsp;&emsp;Reşedinţa judeţului este municipiul Suceava.</p>
+        <p>&emsp;&emsp;Organizarea administrativă a teritoriului judeţului Suceava cuprinde:</p>
+        <ul>
+            <li> 5 municipii: Suceava, Fălticeni, Rădăuţi, Câmpulung Moldovenesc, Vatra Dornei;
+            </li>
+            <li>11 oraşe : Gura Humorului, Siret, Solca, Broşteni, Cajvana, Dolhasca, Frasin, Liteni, Milişăuţi,
+                Salcea, Vicovu de Sus;</li>
+            <li>98 comune</li>
+            <li>379 sate.</li>
+        </ul>
+        <p>&emsp;&emsp;Dealurile şi munţii sunt formele de relief predominate. Suprafaţa fondului forestier
+            reprezintă 51,6% din cea a judeţului,
+            ocupând din acest punct de vedere primul loc pe ţară.</p>
+
+        <p>&emsp;&emsp;Raportat la marile unităţi geografice ale ţării, teritoriul judeţului Suceava se
+            suprapune parţial Carpaţilor Orientali
+            şi Podişului Sucevei.</p>
+
+
+
+    </section>
+
+    <section id="galerie">
+        <h4> Galerie de imagini </h4>
+        <figure class="ig">
+            <img src="Harta-judetului-Suceava.jpg" alt="Relief">
+            <figcaption> Suceava pe harta </figcaption>
+        </figure>
+
+        <figure class="ig">
+            <img src="rau.jpg" alt="Rau">
+            <figcaption> Raul Suceava </figcaption>
+        </figure>
+
+        <figure class="ig">
+            <img src="Steiermark-968x460.jpeg" alt="peisaj">
+            <figcaption> Peisaj 1 </figcaption>
+        </figure>
+
+        <figure class="ig">
+        <img src="unnamed%20(1).jpg" alt="Peisaj">
+            <figcaption> Peisaj 2 </figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <p>&emsp;&emsp;Regiunea muntoasă cuprinde masivele Suhard şi Călimani (cu vârful Pietrosul de 1791 m),
+            cei mai impunători munţi vulcanici
+            din ţară, Obcina Mestecăniş, masivele Giumalău-Rarău,
+            Obcina Feredeului, Obcina Mare, Munţii Stănişoarei, Depresiunea Dornelor.</p>
+
+        <p>&emsp;&emsp;Regiunea de podiş cuprinde dealurile piemontane Marginea, Depresiunea Rădăuţi,
+            Podişul Suceava-Fălticeni, Podişul
+            Dragomirna, Depresiunea Liteni, Câmpia piemontană Baia, Valea Siretului.</p>
+
+        <p>&emsp;&emsp;Poziţia judeţului determină caracterul răcoros al climei, clima judeţului fiind
+            temperat-continentală.</p>
+
+        <p>&emsp;&emsp;Judeţul Suceava dispune de o bogată reţea hidrografică reprezentată de râuri
+            (Bistriţa, Dorna, Moldova, Siret,
+        Şomuzul Mare, Suceava), pâraie, iazuri. Pe teritoriul judeţului există izvoare de ape minerale şi mineralizate,
+            cele mai renumite izvoare sunt cele de la Şaru Dornei, Poiana Negri şi Coşna.</p>
+    </section>
+
+</div>
+
+<footer>
+    <button class="trecere trecere_str schimba" onclick="location.href='pag_principala.html'" type="button" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+        Inapoi la pagina principala</button>
+    <button class="trecere trecere_dr schimba" onclick="location.href='Istorie.html'" type="button" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+        Istorie</button>
+</footer>
+</body>
+</html>

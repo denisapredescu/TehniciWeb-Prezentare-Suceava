@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="pag_principala.js" defer></script>
+    <script src="fisier.js" defer></script>
+    <style>
+    #apasare
+    {
+        background-color: #387032;
+    }
+    .schimba
+    {
+        color: white;
+    }
+    </style>
+</head>
+
+
+<body onload="oraActuala()">
+
+
+
+<section class="schimba">
+
+    <h4>Ati vizitat deja Suceava?
+        Hai sa contribuiti la creare unei mai ample sectiuni cu poze si text optional!!</h4>
+
+
+    <form  method="post" action="/fisier" enctype="multipart/form-data" class="schimba" id="inputform">
+
+         <label>Email</label>
+            <input  type="text" id="email" name="email">
+
+        <p>Doresc sa inserez o poza<br></p>
+        <label>Poza</label>
+            <input type="file" id="poza" name="poza">
+
+        <p>Doresc sa imi spun parerea<br></p>
+         <label>Parere</label>
+            <input type="text" id="feedback" name="feedback" placeholder="Scrii dupa ce selectezi varianta" >
+
+        <input type="submit"  value="Trimite"  id="apasare" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+
+    </form>
+
+</section>
+
+</body>
+</html>

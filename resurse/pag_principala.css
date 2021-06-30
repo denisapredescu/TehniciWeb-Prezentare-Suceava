@@ -1,0 +1,224 @@
+body{
+    background-color: #e7d398;
+    font-family: cursive;
+}
+.ora{
+    float:right;
+    font-size: 12px;
+    margin: 10px;
+}
+header > button{
+    height: 40px;
+    width: auto;
+    padding: 5px;
+    margin:10px;
+    background-color: #387032;
+    color:black;
+    border:none;
+    border-radius: 5px;
+
+}
+#titlu{
+    text-align: center;
+    font-size: 60px;
+    color: darkred;
+    margin-bottom: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html{font-size:16px;}
+
+nav.meniu {
+
+    position: relative;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+    margin-bottom: 20px;
+}
+
+nav.meniu ul.meniu_ul li a{
+
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+   /* overflow: auto;*/
+    font-size: 1rem;
+    display: block;
+    height: 100%;
+}
+
+nav.meniu ul{
+    list-style-type: none;
+}
+
+nav.meniu > ul{
+    text-align: center;
+}
+
+nav.meniu > ul.meniu_ul > li{
+    background-color: #387032;
+    float: left;
+    width: 33.3%;
+    height: 80px;
+    text-align: center;
+    line-height: 70px;
+}
+
+nav.meniu > ul.meniu_ul > li> ul.submeniu{
+    visibility: hidden;
+}
+
+nav.meniu > ul.meniu_ul > li:hover> ul.submeniu{
+    visibility: visible;
+    background-color: #387032;
+}
+
+nav.meniu > ul.meniu_ul  li:hover{
+    background-color: #87966b;
+}
+
+.subtitlu{
+    /*margin-top:10px;*/
+    margin-left: 15%;
+    color: #5a2906;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+figure{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+#poza_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius:30px;
+    transition: transform 1s, border 5s;
+
+}
+#poza_logo:hover{
+    transform:scale(0.9) rotate(10deg);
+    border: 2px solid coral;
+}
+/*
+.trecere a{
+    color:black;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+ */
+.trecere{
+    background-color: #387032;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    padding:2% 4%;
+    border-radius: 5px;
+}
+.trecere_dr{
+    float:right;
+}
+.trecere_str{
+    float:left;
+}
+
+footer>p{
+    text-align:center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+p#mesaj{
+    font-size:25px;
+    text-align: center;
+    font-family: "Old English Text MT";
+    color: darkslategray;
+
+}
+
+#s1 ul{
+    width:55%;
+    margin-left: 8%;
+    font-size: 1rem;
+    }
+
+#s1 ul li:nth-of-type(2n){
+    background-color: #f3f3a4;
+}
+#s1 h4{
+    text-decoration-line: underline;
+    width:55%;
+    margin-left: 8%;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+#s2{
+    width:35%;
+    height:30%;
+    float:right;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+#stema {
+    width: 0;
+    height: auto;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 0;
+    animation-name: coborareStema;
+    animation-delay: 1s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes coborareStema{
+    0%{margin-top:0px;
+        width: 1%;
+
+        transform: rotate(0deg);}
+    100%{margin-top: 100px;
+        width: 10%;
+
+        transform: rotate(360deg);}
+}
+
+p.ora
+{
+    padding:10px;
+}
+.animat{
+    width: 10px;
+    height: auto;
+    /*position: absolute;*/
+    color:red;
+    animation-name: schimbareInTimp;
+    /*animation-delay: 0s;*/
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes schimbareInTimp{
+    0%{opacity:1;
+        color:red;}
+    30%{opacity:0;
+        color:pink;
+        }
+    100%{
+        top:0px;
+        opacity: 0;
+    }
+}
+
+
+
