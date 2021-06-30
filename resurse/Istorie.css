@@ -1,0 +1,164 @@
+section#fundal{
+    margin-right: 7%;
+    margin-top: 4px;
+    margin-left: 7%;
+    background-image:url("istorie2.jpg");
+}
+section#fundal > h4{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div#coloane{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    /*padding: 2rem;*/
+}
+div#coloane > section{
+    flex-basis:10px;
+    flex-grow: 1;
+    padding: 2%;
+    margin: 2%;
+    background-color:rgba(255,255,255,0.6);
+}
+p{
+    text-decoration-style: solid;
+    text-align: left;
+}
+
+section#poze > h4{
+    margin-top:15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #89b065;
+}
+
+section#poze > div
+{
+    display: grid;
+    justify-content:center;
+    grid-template-areas:
+    'poza2 poza3 poza4'
+    '. poza1 .';
+    grid-gap: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+section#poze > div> figure:nth-child(1) {
+    grid-area:poza1;
+    animation-delay:1s;
+}
+section#poze > div> figure:nth-child(2) {
+    grid-area:poza2;
+    animation-delay:4s;
+}
+section#poze > div> figure:nth-child(3) {
+    grid-area:poza3;
+    animation-delay:2s;
+}
+section#poze > div> figure:nth-child(4) {
+    grid-area:poza4;
+    animation-delay:3s;
+}
+section#poze > div> figure{
+    transition: position 3s, z-index, transform 5s;
+    animation-name: treptat;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+img{
+    width: 100%;
+    height: 90%;
+}
+section#poze > div> figure >figcaption {
+    font-size: 0.8rem;
+}
+@keyframes treptat{
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+
+/*section#fundal{
+    margin-right: 7%;
+    margin-top: 4px;
+    margin-left: 7%;
+    background-image:url("istorie2.jpg");
+}
+section#fundal > h4{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div#coloane{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    /*padding: 2rem;*/
+}
+div#coloane > section{
+    flex-basis:10px;
+    flex-grow: 1;
+    padding: 2%;
+    margin: 2%;
+    background-color:rgba(255,255,255,0.6);
+}
+p{
+    text-decoration-style: solid;
+    text-align: left;
+}
+
+section#poze > h4{
+    margin-top:15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #89b065;
+}
+
+section#poze > div
+{
+    display: grid;
+    justify-content:center;
+    grid-template-areas:
+    'poza2 poza3 poza4'
+    '. poza1 .';
+    grid-gap: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+section#poze > div> figure:nth-child(1) {
+    grid-area:poza1;
+    animation-delay:1s;
+}
+section#poze > div> figure:nth-child(2) {
+    grid-area:poza2;
+    animation-delay:4s;
+}
+section#poze > div> figure:nth-child(3) {
+    grid-area:poza3;
+    animation-delay:2s;
+}
+section#poze > div> figure:nth-child(4) {
+    grid-area:poza4;
+    animation-delay:3s;
+}
+section#poze > div> figure{
+    transition: position 3s, z-index, transform 5s;
+    animation-name: treptat;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+img{
+    width: 100%;
+    height: 90%;
+}
+section#poze > div> figure >figcaption {
+    font-size: 0.8rem;
+}
+@keyframes treptat{
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+*/
