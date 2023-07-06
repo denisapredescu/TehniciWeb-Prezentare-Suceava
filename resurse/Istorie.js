@@ -15,10 +15,7 @@ if (localStorage.getItem("check"))
         for (var i = 0; i < nr.length; i++) {
             nr[i].style.color = "white";
         }
-       // document.body.onclick = function () {
-            localStorage.setItem("check", "check2");
-        //}
-
+        localStorage.setItem("check", "check2");
     }
 
     document.getElementById("check1").onclick = f1;
@@ -33,8 +30,6 @@ if (localStorage.getItem("check"))
         for (var i = 0; i < nr.length; i++) {
             nr[i].style.color = "black";
         }
-       // document.body.onclick = function () {
-            localStorage.setItem("check", "check1");
-       // }
+        localStorage.setItem("check", "check1");
     }
 

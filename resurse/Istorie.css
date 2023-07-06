@@ -80,24 +80,6 @@ section#poze > div> figure >figcaption {
     to   {opacity: 1;}
 }
 
-/*section#fundal{
-    margin-right: 7%;
-    margin-top: 4px;
-    margin-left: 7%;
-    background-image:url("istorie2.jpg");
-}
-section#fundal > h4{
-    padding-top: 15px;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-div#coloane{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    /*padding: 2rem;*/
-}
 div#coloane > section{
     flex-basis:10px;
     flex-grow: 1;
@@ -161,4 +143,3 @@ section#poze > div> figure >figcaption {
     from {opacity: 0;}
     to   {opacity: 1;}
 }
-*/

@@ -31,9 +31,7 @@
             nr[i].style.color = "black";
         }
         var meniu = document.querySelectorAll(".schimba");
-        /* for (var i = 1; i < 7; i++)
-             meniu[i].style.backgroundColor = "#387032";
-     */
+  
         var i = 3;
         while (i != 0) {
             meniu[meniu.length - 2 * i].style.backgroundColor = "#f3f3a4";
@@ -77,9 +75,8 @@
 
         document.getElementById("admin").style.backgroundColor="darkslategray";
         document.getElementById("admin").style.color="white";
-        // document.body.onclick = function () {
+        
         localStorage.setItem("check", "check2");
-        //}
     }
 
 
@@ -141,18 +138,3 @@
                 event.stopPropagation();
             }
     })
-
-
-
-    /*
-    window.onkeydown(event){
-        if (localStorage.getItem("check"))
-            if (localStorage.getItem("check") === "check2") f2();
-            else
-                f1();
-    }
-
-     */
-
-
-

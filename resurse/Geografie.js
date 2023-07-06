@@ -6,7 +6,6 @@ if (localStorage.getItem("check"))
     document.getElementById("check2").onclick = f2;
 
     function f2() {
-        //alert(localStorage.getItem("check"));
         document.body.style.backgroundColor = "black";
         document.querySelector(".subtitlu").style.color = "darksbrown";
         document.getElementById("check2").style.color = "white";
@@ -17,9 +16,7 @@ if (localStorage.getItem("check"))
             nr[i].style.color = "white";
             nr[i].style.backgroundColor = "#387032";
         }
-      //  document.body.onclick = function () {
-            localStorage.setItem("check", "check2");
-        //}
+        localStorage.setItem("check", "check2");
     }
 
     document.getElementById("check1").onclick = f1;
