@@ -1,7 +1,13 @@
 # Tehnici Web - Prezentare-Suceava
+Site-ul prezinta orasul Suceava: geografia, istoria, obiectivele turistice din zona. Este creat astfel incat sa existe interactiune cu utilizatorii si respecta [cerintele]( https://sites.google.com/site/fmitehniciweb/sistemul-de-notare?authuser=0) stabilite la cursul Tehnici Web. 
+
+Limbajele de programare folosite sunt: HTML, CSS, JavaScript si NodeJS. 
+
+### Rulare
 Pentru a rula proiectul, se deschide un terminal si se introduce `node index.js`. Ruta locala pe care se ruleaza proiectul este `63342` prin urmare, pentru a deschide pagina principala, trebuie sa se deschida un browser si sa se introduca urmatorul link:
 > localhost:63342/pag_principala.html
 
+### Prezentare
 Prezentarea pe scurt a aplicatiei: [click pentru accesare](https://www.youtube.com/watch?v=p-p0M2NqcPY)
 
 Aplicatia este prezenatabila si in cazul in car se micsoreaza pagina web:
