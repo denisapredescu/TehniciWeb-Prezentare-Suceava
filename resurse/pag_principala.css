@@ -2,11 +2,13 @@ body{
     background-color: #e7d398;
     font-family: cursive;
 }
+
 .ora{
     float:right;
     font-size: 12px;
     margin: 10px;
 }
+
 header > button{
     height: 40px;
     width: auto;
@@ -16,18 +18,20 @@ header > button{
     color:black;
     border:none;
     border-radius: 5px;
-
 }
+
 #titlu{
     text-align: center;
     font-size: 60px;
     color: darkred;
     margin-bottom: 10px;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 html{font-size:16px;}
 
 nav.meniu {
@@ -81,7 +85,6 @@ nav.meniu > ul.meniu_ul  li:hover{
 }
 
 .subtitlu{
-    /*margin-top:10px;*/
     margin-left: 15%;
     color: #5a2906;
     font-style: italic;
@@ -105,17 +108,12 @@ figure{
     transition: transform 1s, border 5s;
 
 }
+
 #poza_logo:hover{
     transform:scale(0.9) rotate(10deg);
     border: 2px solid coral;
 }
-/*
-.trecere a{
-    color:black;
-    text-decoration: none;
-    text-decoration-style: none;
-}
- */
+
 .trecere{
     background-color: #387032;
     border: none;
@@ -126,9 +124,11 @@ figure{
     padding:2% 4%;
     border-radius: 5px;
 }
+
 .trecere_dr{
     float:right;
 }
+
 .trecere_str{
     float:left;
 }
@@ -140,12 +140,12 @@ footer>p{
     margin-top: 20px;
     margin-bottom:20px;
 }
+
 p#mesaj{
     font-size:25px;
     text-align: center;
     font-family: "Old English Text MT";
     color: darkslategray;
-
 }
 
 #s1 ul{
@@ -157,6 +157,7 @@ p#mesaj{
 #s1 ul li:nth-of-type(2n){
     background-color: #f3f3a4;
 }
+
 #s1 h4{
     text-decoration-line: underline;
     width:55%;
@@ -164,6 +165,7 @@ p#mesaj{
     margin-top: 30px;
     font-size: 1rem;
 }
+
 #s2{
     width:35%;
     height:30%;
@@ -198,16 +200,16 @@ p.ora
 {
     padding:10px;
 }
+
 .animat{
     width: 10px;
     height: auto;
-    /*position: absolute;*/
     color:red;
     animation-name: schimbareInTimp;
-    /*animation-delay: 0s;*/
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 @keyframes schimbareInTimp{
     0%{opacity:1;
         color:red;}

@@ -16,8 +16,6 @@
         else
             f1();
 
-
-
     document.getElementById("check1").onclick = f1;
 
     function f1() {
@@ -38,12 +36,10 @@
             i--;
         }
 
-
         document.getElementById("admin").style.backgroundColor="#f3f3a4";
         document.getElementById("admin").style.color="black";
 
         localStorage.setItem("check", "check1");
-
     }
 
 
@@ -68,10 +64,7 @@
         while (i != 0) {
             meniu[meniu.length - 2 * i].style.backgroundColor = "#387032";
             i--;
-
-
         }
-
 
         document.getElementById("admin").style.backgroundColor="darkslategray";
         document.getElementById("admin").style.color="white";
